@@ -7,15 +7,14 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @SpringBootApplication
-public class Demo2Application {
-	
+public class Demo21Application {
+
 	@RequestMapping("/")
 	String home() {
 		return "Hello World!0";
 	}
-	
 	public static void main(String[] args) {
-		SpringApplication.run(Demo2Application.class, args);
+		SpringApplication.run(Demo21Application.class, args);
 	}
 
 }
