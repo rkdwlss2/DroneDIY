@@ -1,0 +1,9 @@
+insert into 프레임 values ( 09882762, 64, 'Black');
+insert into 프레임 values ( 24369044, 72, 'Yello');
+insert into 프레임 values ( 39655299, 91, 'Black');
+insert into 프레임 values ( 47422603, 13, 'Gray');
+insert into 프레임 values ( 15125947, 44, 'Blue');
+insert into 프레임 values ( 99839981, 56, 'Green');
+insert into 프레임 values ( 64967951, 125, 'Red');
+insert into 프레임 values ( 50162632, 160, 'Black');
+insert into 프레임 values ( 86809036, 100, 'Gray');

@@ -1,0 +1,121 @@
+USE DRONE_DIY
+CREATE TABLE 회원(
+   회원ID CHAR(15) NOT NULL,
+   이름 VARCHAR(15) NOT NULL,
+   휴대폰번호 VARCHAR(20) NOT NULL,
+   비밀번호 VARCHAR(15) NOT NULL,
+   이메일 VARCHAR(30) NOT NULL,
+   주소 TEXT NOT NULL,
+   CONSTRAINT 회원PK PRIMARY KEY(회원ID)
+);
+
+CREATE TABLE 직원(
+   직원번호 INT NOT NULL,
+   이름 VARCHAR(10) NOT NULL,
+   휴대폰번호 VARCHAR(20) NOT NULL,
+   비밀번호 VARCHAR(15) NOT NULL,
+   CONSTRAINT 직원PK PRIMARY KEY(직원번호),
+);
+
+CREATE TABLE 신규부품(
+   신규부품번호 INT NOT NULL,
+   부품종류 VARCHAR(15) NOT NULL,
+   요구내역 TEXT NOT NULL,
+   요청일자 VARCHAR(30)  NOT NULL,
+   회원ID CHAR(15),
+   승인여부 CHAR(5),
+   직원번호 INT,
+   CONSTRAINT 신규PK PRIMARY KEY(신규부품번호)
+)
+
+CREATE TABLE 부품업체(
+   업체번호 INT NOT NULL,
+   업체명 VARCHAR(15) NOT NULL,
+   전화번호 VARCHAR(20) NOT NULL,
+   직원번호 INT,
+   CONSTRAINT 업체PK PRIMARY KEY(업체번호)
+)
+
+CREATE TABLE 공급(
+   부품번호 INT NOT NULL,
+   업체번호 INT NOT NULL,
+   CONSTRAINT 공급PK PRIMARY KEY(부품번호,업체번호)
+)
+
+CREATE TABLE 부품(
+   부품번호 INT NOT NULL,
+   부품명 VARCHAR(50) NOT NULL,
+   가격 INT NOT NULL,
+   가로 INT NOT NULL,
+   세로 INT NOT NULL,
+   높이 INT NOT NULL,
+   무게 INT NOT NULL,
+   CONSTRAINT 부품PK PRIMARY KEY(부품번호)
+)
+
+CREATE TABLE 프레임(
+   부품번호 INT NOT NULL,
+   팔길이 INT NOT NULL,
+   색상 VARCHAR(10) NOT NULL,
+   CONSTRAINT 프레임PK PRIMARY KEY(부품번호)
+)
+
+CREATE TABLE 프로펠러(
+   부품번호 INT NOT NULL,
+   재질 VARCHAR(10) NOT NULL,
+   색상 VARCHAR(10) NOT NULL,
+    CONSTRAINT 프로펠러PK PRIMARY KEY(부품번호)
+)
+
+CREATE TABLE 배터리(
+   부품번호 INT NOT NULL,
+   용량 INT NOT NULL,
+   전압 INT NOT NULL,
+   CONSTRAINT 배터리PK PRIMARY KEY(부품번호)
+)
+
+CREATE TABLE 모터(
+   부품번호 INT NOT NULL,
+   KV INT NOT NULL,
+   파워 INT NOT NULL,
+   CONSTRAINT 모터PK PRIMARY KEY(부품번호)
+)
+
+CREATE TABLE 카메라(
+   부품번호 INT NOT NULL,
+   렌즈 VARCHAR(20) NOT NULL,
+   화소 INT NOT NULL,
+   CONSTRAINT 카메라PK PRIMARY KEY(부품번호)
+)
+
+CREATE TABLE 주문내역(
+   주문번호 INT NOT NULL,
+   조립여부 CHAR NOT NULL,
+   주문날짜 VARCHAR(30) NOT NULL,
+   회원ID CHAR(15) NOT NULL,
+   CONSTRAINT 주문PK PRIMARY KEY(주문번호)
+)
+
+CREATE TABLE 포함(
+   주문번호 INT NOT NULL,
+   부품번호 INT NOT NULL,
+   갯수 INT NOT NULL,
+   CONSTRAINT 포함PK PRIMARY KEY(주문번호,부품번호)
+)
+
+CREATE TABLE 문의(
+   문의번호 INT NOT NULL,
+   문의내역 TEXT NOT NULL,
+   작성시간 VARCHAR(30) NOT NULL,
+   회원ID CHAR(15) NOT NULL,
+   CONSTRAINT 문의PK PRIMARY KEY(문의번호)
+)
+
+CREATE TABLE 답변댓글(
+   답변내역 TEXT NOT NULL,
+   작성시간 VARCHAR(30) NOT NULL,
+   문의번호 INT NOT NULL,
+   직원번호 INT NOT NULL,
+   CONSTRAINT 답변댓글PK PRIMARY KEY(문의번호,직원번호)
+)
+

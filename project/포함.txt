@@ -1,0 +1,241 @@
+insert into 포함 values (1, 33270527, 1);
+insert into 포함 values (1, 16484422, 1);
+insert into 포함 values (1, 96450398, 1);
+insert into 포함 values (1, 16264078, 1);
+insert into 포함 values (1, 50162632, 1);
+
+insert into 포함 values (2, 19529859, 3);
+insert into 포함 values (2, 71351709, 1);
+insert into 포함 values (2, 04453007, 1);
+insert into 포함 values (2, 47907050, 2);
+insert into 포함 values (2, 47422603, 1);
+
+insert into 포함 values (3, 30657470, 1);
+insert into 포함 values (3, 14218803, 1);
+insert into 포함 values (3, 80039737, 1);
+insert into 포함 values (3, 16264078, 2);
+insert into 포함 values (3, 39655299, 1);
+
+insert into 포함 values (4, 04772996, 1);
+insert into 포함 values (4, 23972317, 2);
+insert into 포함 values (4, 69884945, 1);
+insert into 포함 values (4, 16297461, 2);
+insert into 포함 values (4, 99839981, 1);
+
+insert into 포함 values (5, 11259941, 2);
+insert into 포함 values (5, 16484422, 1);
+insert into 포함 values (5, 96450398, 1);
+insert into 포함 values (5, 70524853, 1);
+insert into 포함 values (5, 64967951, 1);
+
+
+insert into 포함 values (6, 02053720, 2);
+insert into 포함 values (6, 87252553, 1);
+insert into 포함 values (6, 98734634, 1);
+insert into 포함 values (6, 16297461, 2);
+insert into 포함 values (6, 39655299, 1);
+
+insert into 포함 values (7, 23127330, 2);
+insert into 포함 values (7, 74308457, 1);
+insert into 포함 values (7, 88699107, 1);
+insert into 포함 values (7, 19773900, 1);
+insert into 포함 values (7, 09882762, 1);
+
+insert into 포함 values (8, 04204789, 3);
+insert into 포함 values (8, 64527807, 1);
+insert into 포함 values (8, 93862930, 1);
+insert into 포함 values (8, 13157391, 2);
+insert into 포함 values (8, 15125947, 2);
+
+insert into 포함 values (9, 14171901, 2);
+insert into 포함 values (9, 41477791, 1);
+insert into 포함 values (9, 64018378, 1);
+insert into 포함 values (9, 62849085, 1);
+insert into 포함 values (9, 39655299, 2);
+
+insert into 포함 values (10, 14672103, 2);
+insert into 포함 values (10, 14915736, 2);
+insert into 포함 values (10, 96440554, 2);
+insert into 포함 values (10, 62130976, 2);
+insert into 포함 values (10, 09882762, 1);
+
+
+insert into 포함 values (11, 33270527, 3);
+insert into 포함 values (11, 64527807, 1);
+insert into 포함 values (11, 96450398, 1);
+insert into 포함 values (11, 62130976, 1);
+insert into 포함 values (11, 15125947, 1);
+
+insert into 포함 values (12, 28726092, 1);
+insert into 포함 values (12, 87252553, 1);
+insert into 포함 values (12, 88699107, 1);
+insert into 포함 values (12, 47769725, 2);
+insert into 포함 values (12, 99839981, 1);
+
+insert into 포함 values (13, 28726092, 1);
+insert into 포함 values (13, 23972317, 1);
+insert into 포함 values (13, 92210883, 1);
+insert into 포함 values (13, 62130976, 2);
+insert into 포함 values (13, 15125947, 1);
+
+insert into 포함 values (14, 29403945, 1);
+insert into 포함 values (14, 71351709, 2);
+insert into 포함 values (14, 69884945, 1);
+insert into 포함 values (14, 47907050, 2);
+insert into 포함 values (14, 15125947, 1);
+
+insert into 포함 values (15, 54115870, 1);
+insert into 포함 values (15, 02479101, 1);
+insert into 포함 values (15, 98734634, 1);
+insert into 포함 values (15, 70524853, 2);
+insert into 포함 values (15, 39655299, 1);
+
+insert into 포함 values (16, 54115870, 1);
+insert into 포함 values (16, 04777566, 2);
+insert into 포함 values (16, 98734634, 2);
+insert into 포함 values (16, 70524853, 2);
+insert into 포함 values (16, 09882762, 1);
+
+insert into 포함 values (17, 56940403, 2);
+insert into 포함 values (17, 04777566, 2);
+insert into 포함 values (17, 75257235, 2);
+insert into 포함 values (17, 16264078, 3);
+insert into 포함 values (17, 15125947, 2);
+
+insert into 포함 values (18, 61906824, 1);
+insert into 포함 values (18, 04777566, 1);
+insert into 포함 values (18, 52827302, 1);
+insert into 포함 values (18, 51486552, 3);
+insert into 포함 values (18, 86809036, 1);
+
+insert into 포함 values (19, 30657470, 1);
+insert into 포함 values (19, 23972317, 1);
+insert into 포함 values (19, 31034148, 1);
+insert into 포함 values (19, 19773900, 1);
+insert into 포함 values (19, 15125947, 1);
+
+insert into 포함 values (20, 02053720, 1);
+insert into 포함 values (20, 57861388, 1);
+insert into 포함 values (20, 75257235, 1);
+insert into 포함 values (20, 47769725, 1);
+insert into 포함 values (20, 15125947, 1);
+
+insert into 포함 values (21, 04204789, 1);
+insert into 포함 values (21, 57861388, 1);
+insert into 포함 values (21, 58710225, 1);
+insert into 포함 values (21, 47769725, 2);
+insert into 포함 values (21, 47422603, 2);
+
+insert into 포함 values (22, 04204789, 1);
+insert into 포함 values (22, 58856249, 1);
+insert into 포함 values (22, 88699107, 3);
+insert into 포함 values (22, 51486552, 1);
+insert into 포함 values (22, 47422603, 1);
+
+insert into 포함 values (23, 04204789, 1);
+insert into 포함 values (23, 49437731, 2);
+insert into 포함 values (23, 88699107, 2);
+insert into 포함 values (23, 64959962, 2);
+insert into 포함 values (23, 47422603, 1);
+
+insert into 포함 values (24,  59541854, 2);
+insert into 포함 values (24, 95874065, 2);
+insert into 포함 values (24, 64018378, 1);
+insert into 포함 values (24, 19773900, 1);
+insert into 포함 values (24, 47422603, 1);
+
+insert into 포함 values (25,  59541854, 1);
+insert into 포함 values (25, 02479101, 1);
+insert into 포함 values (25, 93862930, 1);
+insert into 포함 values (25, 30595955, 1);
+insert into 포함 values (25, 47422603, 1);
+
+insert into 포함 values (26,  04204789, 1);
+insert into 포함 values (26, 58856249, 1);
+insert into 포함 values (26, 24321337, 1);
+insert into 포함 values (26, 81620951, 1);
+insert into 포함 values (26, 47422603, 1);
+
+insert into 포함 values (27,  04204789, 3);
+insert into 포함 values (27, 41477791, 1);
+insert into 포함 values (27, 88699107, 3);
+insert into 포함 values (27, 39655299, 3);
+insert into 포함 values (27, 39655299, 1);
+
+insert into 포함 values (28, 23127330, 1);
+insert into 포함 values (28, 41372357, 1);
+insert into 포함 values (28, 58710225, 1);
+insert into 포함 values (28, 80982771, 1);
+insert into 포함 values (28, 15125947, 1);
+
+insert into 포함 values (29, 82980002, 1);
+insert into 포함 values (29, 14915736, 1);
+insert into 포함 values (29, 96450398, 1);
+insert into 포함 values (29, 30595955, 1);
+insert into 포함 values (29, 15125947, 1);
+
+insert into 포함 values (30, 57478026, 1);
+insert into 포함 values (30, 14915736, 1);
+insert into 포함 values (30, 98734634, 2);
+insert into 포함 values (30, 64959962, 1);
+insert into 포함 values (30, 15125947, 1);
+
+insert into 포함 values (31, 61906824, 1);
+insert into 포함 values (31, 41372357, 1);
+insert into 포함 values (31, 80039737, 1);
+insert into 포함 values (31, 47769725, 1);
+insert into 포함 values (31, 15125947, 1);
+
+insert into 포함 values (32, 57494615, 1);
+insert into 포함 values (32, 11921020, 2);
+insert into 포함 values (32, 69884945, 1);
+insert into 포함 values (32, 81620951, 1);
+insert into 포함 values (32, 15125947, 1);
+
+insert into 포함 values (33, 56023763, 1);
+insert into 포함 values (33, 64527807, 2);
+insert into 포함 values (33, 75257235, 1);
+insert into 포함 values (33, 70524853, 1);
+insert into 포함 values (33, 09882762, 1);
+
+insert into 포함 values (34, 54115870, 1);
+insert into 포함 values (34, 16484422, 2);
+insert into 포함 values (34, 88699107, 1);
+insert into 포함 values (34, 28036913, 1);
+insert into 포함 values (34, 09882762, 1);
+
+insert into 포함 values (35, 94483971, 1);
+insert into 포함 values (35, 49437731, 1);
+insert into 포함 values (35, 04453007, 1);
+insert into 포함 values (35, 81620951, 1);
+insert into 포함 values (35, 09882762, 1);
+
+insert into 포함 values (36, 94483971, 1);
+insert into 포함 values (36, 49437731, 1);
+insert into 포함 values (36, 80039737, 1);
+insert into 포함 values (36, 64959962, 1);
+insert into 포함 values (36, 50162632, 1);
+
+insert into 포함 values (37, 14672103, 1);
+insert into 포함 values (37, 49437731, 1);
+insert into 포함 values (37, 69884945, 1);
+insert into 포함 values (37, 28036913, 1);
+insert into 포함 values (37, 50162632, 1);
+
+insert into 포함 values (38,56023763, 1);
+insert into 포함 values (38, 95874065, 1);
+insert into 포함 values (38, 88699107, 1);
+insert into 포함 values (38, 28036913, 1);
+insert into 포함 values (38, 50162632, 1);
+
+insert into 포함 values (39, 80699436, 3);
+insert into 포함 values (39, 57861388, 1);
+insert into 포함 values (39, 88699107, 1);
+insert into 포함 values (39, 30595955, 1);
+insert into 포함 values (39, 15125947, 1);
+
+insert into 포함 values (40, 30657470, 1);
+insert into 포함 values (40, 64527807, 1);
+insert into 포함 values (40, 58710225, 1);
+insert into 포함 values (40, 16264078, 1);
+insert into 포함 values (40, 15125947, 1);

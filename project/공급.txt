@@ -1,0 +1,112 @@
+insert into 공급 values ( 33270527,453660);
+insert into 공급 values ( 28726092,038126);
+insert into 공급 values ( 19529859,038126);
+insert into 공급 values ( 68300511,453660);
+insert into 공급 values ( 23127330,985369);
+insert into 공급 values ( 30366591,038126);
+insert into 공급 values ( 04204789,453660);
+insert into 공급 values ( 57478026,038126);
+insert into 공급 values ( 14171901,038126);
+insert into 공급 values ( 04772996,453660);
+insert into 공급 values ( 59541854,985369);
+insert into 공급 values ( 30657470,581029);
+insert into 공급 values ( 57494615,985369);
+insert into 공급 values ( 29403945,453660);
+insert into 공급 values ( 54070796,453660);
+insert into 공급 values ( 14672103,581029);
+insert into 공급 values ( 02053720,581029);
+insert into 공급 values ( 61906824,581029);
+insert into 공급 values ( 80699436,581029);
+insert into 공급 values ( 32776106,985369);
+insert into 공급 values ( 82980002,985369);
+insert into 공급 values ( 54115870,985369);
+insert into 공급 values ( 07065632,453660);
+insert into 공급 values ( 82347639,985369);
+insert into 공급 values ( 74649292,985369);
+insert into 공급 values ( 56940403,581029);
+insert into 공급 values ( 56023763,038126);
+insert into 공급 values ( 11259941,038126);
+insert into 공급 values ( 97829386,038126);
+insert into 공급 values ( 94483971,038126);
+
+배터리
+
+insert into 공급 values ( 87252553,324680);
+insert into 공급 values ( 14915736,324680);
+insert into 공급 values ( 14218803,874047);
+insert into 공급 values ( 95874065,874047);
+insert into 공급 values ( 41477791,324680);
+insert into 공급 values ( 49437731,324680);
+insert into 공급 values ( 64527807,904211);
+insert into 공급 values ( 41372357,904211);
+insert into 공급 values ( 23972317,874047);
+insert into 공급 values ( 58856249,874047);
+insert into 공급 values ( 16484422,904211);
+insert into 공급 values ( 23598836,904211);
+insert into 공급 values ( 71351709,874047);
+insert into 공급 values ( 73814017,874047);
+insert into 공급 values ( 04777566,324680);
+insert into 공급 values ( 57861388,874047);
+insert into 공급 values ( 11921020,904211);
+insert into 공급 values ( 43012749,904211);
+insert into 공급 values ( 02479101,904211);
+insert into 공급 values ( 74308457,324680);
+
+모터
+
+insert into 공급 values ( 96440554,264517);
+insert into 공급 values ( 20167909,264517);
+insert into 공급 values ( 24321337,264517);
+insert into 공급 values ( 93862930,264517);
+insert into 공급 values ( 96450398,264517);
+insert into 공급 values ( 69884945,264517);
+insert into 공급 values ( 58710225,264517);
+insert into 공급 values ( 64018378,046931);
+insert into 공급 values ( 75257235,046931);
+insert into 공급 values ( 80039737,046931);
+insert into 공급 values ( 88699107,046931);
+insert into 공급 values ( 98734634,046931);
+insert into 공급 values ( 52827302,652170);
+insert into 공급 values ( 04453007,652170);
+insert into 공급 values ( 31034148,652170);
+insert into 공급 values ( 87787991,652170);
+insert into 공급 values ( 92210883,652170);
+insert into 공급 values ( 77024631,652170);
+insert into 공급 values ( 90133407,652170);
+insert into 공급 values ( 43824992,652170);
+
+프로펠러
+
+insert into 공급 values ( 09050258,026793);
+insert into 공급 values ( 50109130,137448);
+insert into 공급 values ( 49810345,137448);
+insert into 공급 values ( 62130976,137448);
+insert into 공급 values ( 64959962,137448);
+insert into 공급 values ( 51486552,137448);
+insert into 공급 values ( 30595955,204787);
+insert into 공급 values ( 16297461,026793);
+insert into 공급 values ( 47769725,026793);
+insert into 공급 values ( 80982771,940240);
+insert into 공급 values ( 16264078,940240);
+insert into 공급 values ( 19773900,137448);
+insert into 공급 values ( 81620951,026793);
+insert into 공급 values ( 62849085,940240);
+insert into 공급 values ( 47907050,204787);
+insert into 공급 values ( 28036913,137448);
+insert into 공급 values ( 13157391,137448);
+insert into 공급 values ( 70524853,026793);
+insert into 공급 values ( 01634920,137448);
+insert into 공급 values ( 72125715,204787);
+
+카메라
+
+insert into 공급 values ( 09882762, 111111);
+insert into 공급 values ( 24369044, 222222);
+insert into 공급 values ( 39655299, 111111);
+insert into 공급 values ( 47422603, 333333);
+insert into 공급 values ( 15125947, 111111);
+insert into 공급 values ( 99839981, 333333);
+insert into 공급 values ( 64967951, 222222
+insert into 공급 values ( 50162632, 333333);
+insert into 공급 values ( 86809036, 222222);
+

@@ -1,0 +1,110 @@
+                               何前锅龋, 何前疙, 啊拜, 啊肺,技肺,臭捞,公霸
+insert into 何前 values ( 33270527,'规力侩 靛沸傈侩 府片弃府赣 硅磐府',165000,200,65,50,1380);
+insert into 何前 values ( 28726092,'Tattu 胶飘扼捞目 府器 硅磐府 25C',520000,202,90,64,2500);
+insert into 何前 values ( 19529859,'Tattu 胶飘扼捞目 府器 硅磐府 15C',328000,187,74,65,1931);
+insert into 何前 values ( 68300511,'Lipo Battery Long Pack 绊鞭硅磐府',218000,158,49,52,850);
+insert into 何前 values ( 23127330,'胶飘扼捞目 绊免仿 府器 硅磐府',29000,151,34,30,230);
+insert into 何前 values ( 30366591,'[Tattu] 1550mAh 4S 45C 14.8V ',32000,73,34,34,174);
+insert into 何前 values ( 04204789,'府片捞柯 硅磐府 焊龋雀肺 郴厘屈 65mm',3800,18,18,65,45);
+insert into 何前 values ( 57478026,'[Tattu] 1550mAh 4S 75C 14.8V - 老馆侩',39000,71,34,34,175);
+insert into 何前 values ( 14171901,'[国农] [Tattu] 4S1P 35C',158000,144,45,40,593);
+insert into 何前 values ( 04772996,'[Helicraft Ace] Lipo 35C [XT-60]',87000,135,28,42,385);
+insert into 何前 values ( 59541854,'BLUCORE LiFe Series (2S1P, 30C+)',56000,135,38,20,187);
+insert into 何前 values ( 30657470,'EX-C55 ',158000,137,44,46,588);
+insert into 何前 values ( 57494615,'PT-B1400N-SP55',22000,130,32,55,260);
+insert into 何前 values ( 29403945,'Helicraft KT4500_35C-4S',110000,150,30,45,444);
+insert into 何前 values ( 54070796,'[Helicraft]SLIM LINE battery',35000,200,50,50,1200);
+insert into 何前 values ( 14672103,'FX-C35',32800,107,34,17,119);
+insert into 何前 values ( 02053720,'EX-C40',17900,64,31,16,64);
+insert into 何前 values ( 61906824,'EX-C70',59800,101,35,26,195);
+insert into 何前 values ( 80699436,'ZX-C45',22800,54,31,21,66);
+insert into 何前 values ( 32776106,'PT-B1800N-SP65',19800,30,17,100,107);
+insert into 何前 values ( 82980002,'硅磐府 俊掂咆 乔农盔 DRONE 2S LIPO HV',11500,52,10,24,80);
+insert into 何前 values ( 54115870,'CellMeter 8',20000,120,40,50,233);
+insert into 何前 values ( 07065632,'PT-B 8000-NSR35 ',21800,59,51,40,160);
+insert into 何前 values ( 82347639,'MLI-IL2800',32000,50,20,60,50);
+insert into 何前 values ( 74649292,' HOUR Meter LE8N-BF',34000,40,40,40,96);
+insert into 何前 values ( 56940403,'EX-C65',72000,101,35,29,192);
+insert into 何前 values ( 56023763,'KT8300_35C-4S',196000,185,48,35,740);
+insert into 何前 values ( 11259941,'KT5100_35C-4S',129000,150,35,45,505);
+insert into 何前 values ( 97829386,'KT4500_35C-4S',110000,150,30,45,444);
+insert into 何前 values ( 94483971,'KT6000_35C-6S',210000,150,55,45,864);
+硅磐府
+
+insert into 何前 values ( 87252553,'KUAT PRO 2207.5 ',32000,22,22,8,37);
+insert into 何前 values ( 14915736,'Furling32 4in1 BLHELI32 ESC 45A',68000,30,30,20,42);
+insert into 何前 values ( 14218803,'X-Cross 4in1 ESC 45A',74000,32,35,20,50);
+insert into 何前 values ( 95874065,'X-Cross 4in1 ESC 60A',79000,42,45,30,60);
+insert into 何前 values ( 41477791,'F45A V2.0 4in1 ESC',79000,45,41,10,20);
+insert into 何前 values ( 49437731,'F55A Pro 4in1 ESC',85000,22,22,10,32);
+insert into 何前 values ( 64527807,'F45A 3-6S',35000,33,16,10,44);
+insert into 何前 values ( 41372357,'F35A 3~5S 32bit ESC',23000,20,11,30,30);
+insert into 何前 values ( 23972317,'LF40 饭捞教葛磐',22000,29,29,30,30);
+insert into 何前 values ( 58856249,'F40 Pro III  饭捞教 葛磐',29000,28,28,33,33);
+insert into 何前 values ( 16484422,'F80 Pro 饭捞教 葛磐',33000,29,29,34,40);
+insert into 何前 values ( 23598836,'Xnova 1806',122800,12,14,5,70);
+insert into 何前 values ( 71351709,'EOLO 8112葛磐',290000,81,81,12,375);
+insert into 何前 values ( 73814017,'EOLO 4112葛磐',104000,41,41,12,197);
+insert into 何前 values ( 04777566,'Sunnysky X6212S 宏矾矫府胶 葛磐',78000,40,40,35,308);
+insert into 何前 values ( 57861388,'BRUSHLESS CONTROL_BL T-120A',237000,87,36,28,170);
+insert into 何前 values ( 11921020,'50A 3-6s ESC ',48000,50,50,30,90);
+insert into 何前 values ( 43012749,'40A PRO 6-14S ESC',148000,30,55,10,70);
+insert into 何前 values ( 02479101,'50A PRO 3-6S ESC',68000,33,45,10,55);
+insert into 何前 values ( 74308457,'捻酒飘 宏矾矫府胶 葛磐',32000,22,22,8,32);
+葛磐
+
+
+insert into 何前 values ( 96440554,'EL309PP',155000,30,9,3,0);
+insert into 何前 values ( 20167909,'EL226PP',75000,22,6,3,0);
+insert into 何前 values ( 24321337,'EL176 橇肺歧矾',57000,17,6,2,0);
+insert into 何前 values ( 93862930,'EL155 橇肺歧矾',45000,15,5,2,0);
+insert into 何前 values ( 96450398,'EL289 墨夯颇捞滚',368000,28,9,3,0);
+insert into 何前 values ( 69884945,'EL247 墨夯颇捞滚',250000,24,7,2,0);
+insert into 何前 values ( 58710225,'EL155 墨夯颇捞滚',87000,15,5,2,0);
+insert into 何前 values ( 64018378,'HQD-554',3300,5,4,1,0);
+insert into 何前 values ( 75257235,'HQD-543',3800,5,3,1,0);
+insert into 何前 values ( 80039737,'HQD-524',3500,5,2,1,0);
+insert into 何前 values ( 88699107,'HQD-633',4000,6,3,1,0);
+insert into 何前 values ( 98734634,'HQD-724',4700,7,2,1,0);
+insert into 何前 values ( 52827302,'SSK-095',167000,32,10,3,0);
+insert into 何前 values ( 04453007,'SSK-573',86000,25,7,3,0);
+insert into 何前 values ( 31034148,'SSK-262',63000,20,6,2,0);
+insert into 何前 values ( 87787991,'SSK-352',33000,13,5,2,0);
+insert into 何前 values ( 92210883,'SSK-660',430000,40,10,3,0);
+insert into 何前 values ( 77024631,'EHX-326',82000,24,5,2,0);
+insert into 何前 values ( 90133407,'EHX-326',51000,18,5,2,0);
+insert into 何前 values ( 43824992,'EHX-326',40000,15,5,2,0);
+橇肺歧矾
+
+insert into 何前 values ( 09050258,'OSMO ACTION',459000,65,42,35,124);
+insert into 何前 values ( 50109130,'肺囱S 胶拍促靛',779000,72,66,50,200);
+insert into 何前 values ( 49810345,'肺囱2 橇肺其寂澄 | Ronin2',9490000,245,180,165,780);
+insert into 何前 values ( 62130976,'RONIN-M | 肺囱 M | 勤靛秋靛 咙国',1150000,500,210,420,230);
+insert into 何前 values ( 64959962,'ZENMUSE Z30 ',11000000,152,137,61,549);
+insert into 何前 values ( 51486552,'哩孤令 X7',3590000,151,108,132,449);
+insert into 何前 values ( 30595955,'箕坷捞 Yi 咀记姆',195000,80,40,60,72);
+insert into 何前 values ( 16297461,'坷令葛 器南 ND-PL',99000,60,30,40,55);
+insert into 何前 values ( 47769725,'坷令葛 器南 GND',73000,50,20,30,45);
+insert into 何前 values ( 80982771,'MicaSense RedEdge-MX Dual',650000,87,123,76,508);
+insert into 何前 values ( 16264078,'MicaSense Altum',360000,82,67,64,406);
+insert into 何前 values ( 19773900,'ZENMUSE XT2',3520000,123,112,127,396);
+insert into 何前 values ( 81620951,'U10 饭捞历',5000000,155,90,100,534);
+insert into 何前 values ( 62849085,'喇胶罚靛 Z15 胶器飘扼捞飘 ',904000,100,110,150,500);
+insert into 何前 values ( 47907050,'敲府绢 轰 橇肺',127000,57,44,66,113);
+insert into 何前 values ( 28036913,'哩孤令 Z3',1200000,105,115,85,262);
+insert into 何前 values ( 13157391,'Zenmuse X5 Gimbal and Camera',1800000,130,135,95,302);
+insert into 何前 values ( 70524853,'坷胶葛 咙国',450000,70,40,30,65);
+insert into 何前 values ( 01634920,'ZENMUSE Z10',300000,100,80,110,207);
+insert into 何前 values ( 72125715,'箕坷固 XT',330000,90,65,47,137);
+墨皋扼
+
+insert into 何前 values ( 09882762, 'F450 assembly classroom set','310300',30,30,20,400);
+insert into 何前 values ( 24369044, 'F450/550 孽靛, 琼荤侩 罚爹 胶虐靛 技飘','4800',25,17,9,200);
+insert into 何前 values ( 39655299, '靛沸橇饭烙/RM 450 V2 拳捞飘/饭靛 孽靛倪磐 橇饭烙 450mm','30000',45,45,30,400);
+insert into 何前 values ( 47422603, 'DJI NAZA F550 - 焊鞭屈 琼荤倪磐','490000',43,40,30,500);
+insert into 何前 values ( 15125947, 'DJI NAZA F450 - 焊鞭屈 孽靛倪磐','310000',50,40,35,342);
+insert into 何前 values ( 99839981, 'TAROT X6 Hex-Copter FPV Kit TL6X001','609000',43,35,40,333);
+insert into 何前 values ( 64967951, 'Octo Rotor-X Folding Frame Kit(X8/960mm)','610000',43,35,33,222);
+insert into 何前 values ( 50162632, 'Tarot X8 Oct-Copter FPV Kit TL8X000','798000',35,40,35,333);
+insert into 何前 values ( 86809036, '[TR] X4 Folding QuadCopter Frame Kit(960mm)','548000',40,30,35,300);
+橇饭烙
