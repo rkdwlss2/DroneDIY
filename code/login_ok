@@ -1,0 +1,38 @@
+<%@Language="VBScript" CODEPAGE="65001"%>
+<%
+Response.Charset="utf-8"
+Session.codepage="65001"
+Response.codepage="65001"
+Response.ContentType="text/html; charset=utf-8"
+%>
+
+<%
+   Set Dbcon = Server.CreateObject("ADODB.Connection")
+   Dbcon.Open Application("dbConnect")
+   
+   if Dbcon.state<> 1 Then
+                    Response.Write "데이터베이스에 연결 X<br/>"
+					Response.end
+	End if	
+	
+    Dim id,pw
+
+    id=request("LoginID")
+    pw=request("LoginPW")
+   
+	sql = "SELECT * FROM 회원 WHERE '회원ID={LoginID}' AND '비밀번호={LoginPW}'"
+	sql = Replace(sql,"{LoginId}",id)
+	sql = Replace(sql,"{LoginPW}",pw)
+	   
+	Set Rs = Dbcon.Execute(sql)
+	
+	if(RS.Eof)
+	   response.write "<script> alert('잘못입력하셨습니다.'); </script>"
+	   response.redirect("login.asp")
+    else
+	   response.redirect("myhome.asp")
+	   	
+	Dbcon.Close()
+	Set Dbcon = Nothing
+	Set Rs = Nothing
+%>
