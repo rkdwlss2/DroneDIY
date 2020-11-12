@@ -26,14 +26,31 @@
 					$("#userId").focus();
 					return false;
 				}
+				
+				if($("#userName").val()==""){
+					alert("성명을 입력해주세요.");
+					$("#userName").focus();
+					return false;
+				}
+				
+				if($("#phoneNum").val()==""){
+					alert("휴대폰번호를 입력해주세요.");
+					$("#phoneNum").focus();
+					return false;
+				}
 				if($("#userPass").val()==""){
 					alert("비밀번호를 입력해주세요.");
 					$("#userPass").focus();
 					return false;
 				}
-				if($("#userName").val()==""){
-					alert("성명을 입력해주세요.");
-					$("#userName").focus();
+				if($("#email").val()==""){
+					alert("email를 입력해주세요.");
+					$("#email").focus();
+					return false;
+				}
+				if($("#address").val()==""){
+					alert("address를 입력해주세요.");
+					$("#address").focus();
 					return false;
 				}
 			});
@@ -49,13 +66,26 @@
 					<label class="control-label" for="userId">아이디</label>
 					<input class="form-control" type="text" id="userId" name="userId" />
 				</div>
+				
+				<div class="form-group has-feedback">
+					<label class="control-label" for="userName">성명</label>
+					<input class="form-control" type="text" id="userName" name="userName" />
+				</div>
+				<div class="form-group has-feedback">
+					<label class="control-label" for="phoneNum">휴대폰번호</label>
+					<input class="form-control" type="text" id="phoneNum" name="phoneNum" />
+				</div>
 				<div class="form-group has-feedback">
 					<label class="control-label" for="userPass">패스워드</label>
 					<input class="form-control" type="password" id="userPass" name="userPass" />
 				</div>
 				<div class="form-group has-feedback">
-					<label class="control-label" for="userName">성명</label>
-					<input class="form-control" type="text" id="userName" name="userName" />
+					<label class="control-label" for="email">이메일</label>
+					<input class="form-control" type="text" id="email" name="email" />
+				</div>
+				<div class="form-group has-feedback">
+					<label class="control-label" for="address">주소</label>
+					<input class="form-control" type="text" id="address" name="address" />
 				</div>
 				<div class="form-group has-feedback">
 					<button class="btn btn-success" type="submit" id="submit">회원가입</button>
