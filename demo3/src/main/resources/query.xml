@@ -10,8 +10,12 @@
 	
 	<insert id="resister">
 		INSERT INTO 회원
-		VALUES()
+		VALUES(  #{userId}
+				,#{userName}
+				,#{phoneNum}
+				,#{userPass}
+				,#{email}
+				,#{address})
 		LIMIT 1
 	</insert>
 </mapper>
-
