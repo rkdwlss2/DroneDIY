@@ -7,5 +7,11 @@
 		FROM 회원
 		LIMIT 1
 	</select>
+	
+	<insert id="resister">
+		INSERT INTO 회원
+		VALUES()
+		LIMIT 1
+	</insert>
 </mapper>
 
