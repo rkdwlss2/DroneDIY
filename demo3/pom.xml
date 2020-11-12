@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>Drone_DIY</artifactId>
+	<artifactId>demo2-3</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>demo3</name>
+	<name>demo2-3</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -35,7 +35,8 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-	
+		
+		
 		<dependency>
 			<groupId>org.mybatis.spring.boot</groupId>
 			<artifactId>mybatis-spring-boot-starter</artifactId>
@@ -50,7 +51,25 @@
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
 		</dependency>
-	
+		
+		
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter</artifactId>
+		</dependency>
+		
+		
+		<dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.tomcat.embed</groupId>
+            <artifactId>tomcat-embed-jasper</artifactId>
+        </dependency>
+
+
+
 	</dependencies>
 
 	<build>
@@ -61,5 +80,5 @@
 			</plugin>
 		</plugins>
 	</build>
-	
+
 </project>
