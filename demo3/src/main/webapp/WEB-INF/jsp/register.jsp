@@ -25,6 +25,13 @@
 					alert("아이디를 입력해주세요.");
 					$("#userId").focus();
 					return false;
+				}else{
+					var regExp=/^[A-Za-z0-9_\-]{5,20}$/;
+					if(regExp.test($("#userId").val())==false){
+						alert("ID 형식이 올바르지 않습니다. 5자리에서 20자리입니다,영어 숫자만 허용됩니다. 예 : kang1234");
+						return false;
+					}
+					
 				}
 				
 				if($("#userName").val()==""){
@@ -37,16 +44,36 @@
 					alert("휴대폰번호를 입력해주세요.");
 					$("#phoneNum").focus();
 					return false;
+				}else{
+					var idExp =/(01[016789])([1-9]{1}[0-9]{2,3})([0-9]{4})$/;
+					if(idExp.test($("#phoneNum").val())==false){
+						alert("휴대폰 번호 형식이 올바르지 않습니다. 예 : 01023456789");
+						return false;
+					}
+					
 				}
 				if($("#userPass").val()==""){
 					alert("비밀번호를 입력해주세요.");
 					$("#userPass").focus();
 					return false;
+				}else{
+					var passExp=/^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^*()\-_=+\\\|\[\]{};:\'",.<>\/?]).{8,16}$/
+					if (passExp.test($("#userPass").val())==false){
+						alert("비밀 번호 형식이 올바르지 않습니다. 8자리에서 16자리로 맞추세요. 소문자 대문자 특수기호만 포함됩니다. 예 : dfsdddd##");
+						return false;
+					}
 				}
 				if($("#email").val()==""){
 					alert("email를 입력해주세요.");
 					$("#email").focus();
 					return false;
+				}else{
+					var exptext=/^[A-Za-z0-9_\.\-]+@[A-Za-z0-9\-]+\.[A-Za-z0-9\-]+/;
+					if (exptext.test($("#email").val())==false){
+						alert("이메일형식이 올바르지 않습니다."); 
+						return false;
+					}
+					
 				}
 				if($("#address").val()==""){
 					alert("address를 입력해주세요.");
