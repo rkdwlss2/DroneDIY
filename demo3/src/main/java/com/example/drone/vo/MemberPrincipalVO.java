@@ -11,7 +11,8 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class MemberPrincipalVO implements UserDetails {
-private ArrayList<MemberVO> memberVO;
+	
+	private ArrayList<MemberVO> memberVO;
 	
 	public MemberPrincipalVO(ArrayList<MemberVO> memberAuthes) {
 		this.memberVO = memberAuthes;
