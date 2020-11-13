@@ -10,7 +10,10 @@ public class MemberVO {
 	private String userPass;
 	private String email;
 	private String address;
+	private String roleName;
 	
+	
+
 	public String getUserId() {
 		return userId;
 	}
@@ -47,6 +50,11 @@ public class MemberVO {
 	public void setAddress(String address) {
 		this.address = address;
 	}
-		
+	public String getRoleName() {
+		return roleName;
+	}
+	public void setRoleName(String roleName) {
+		this.roleName = roleName;
+	}	
 	
 }
