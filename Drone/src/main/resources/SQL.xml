@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.drone.mapper.MemberMapper">
+<select id="findByMemberId" resultType="com.example.drone.vo.MemberVO">
+		SELECT u.회원ID as userId, u.비밀번호 as userPass, r.권한이름 as roleName
+		FROM 회원 as u
+		 INNER JOIN 회원권한 AS ur
+		  ON u.회원ID = ur.회원ID
+		  INNER JOIN 권한 AS r 
+		  ON r.권한ID = ur.권한ID
+		WHERE u.회원ID = #{userId}
+    </select>
+    
+	<insert id="memberSave" parameterType="com.example.drone.vo.MemberVO">
+	   INSERT INTO 회원 (회원ID,이름,휴대폰번호,비밀번호,이메일,주소)
+		VALUES(  #{userId}
+				,#{userName}
+				,#{phoneNum}
+				,#{userPass}
+				,#{email}
+				,#{address});
+	</insert>
+
+	<insert id="memberRoleSave">
+		INSERT INTO 회원권한
+        VALUES
+        (
+            #{userId},
+            #{roleId}
+        )
+	</insert>
+	
+	<select id="findMemberNo" resultType="String">
+		SELECT 
+			회원ID
+		FROM 회원
+		WHERE 회원ID = #{userId}
+	</select>
+	
+	<select id="findRoleNo" resultType="String">
+		SELECT 
+			권한ID
+		FROM 권한
+		WHERE 권한이름 = #{roleName}
+	</select>
+</mapper>
