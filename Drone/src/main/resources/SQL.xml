@@ -43,4 +43,10 @@
 		FROM 권한
 		WHERE 권한이름 = #{roleName}
 	</select>
+	
+	<select id="selectallPart" resultType="com.example.drone.vo.FrameVO">
+		SELECT 부품명 as partName, 가격 as price, 가로 as horizontal,
+			   세로 as vertical, 높이 as height, 무게 as weight
+		FROM 부품
+	</select>
 </mapper>

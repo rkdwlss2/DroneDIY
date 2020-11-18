@@ -13,8 +13,8 @@ public class PartService {
 	@Autowired
 	private PartMapper partmapper;
 	
-	public ArrayList<FrameVO> selectallFrame() {
-		ArrayList<FrameVO> allpart = partmapper.selectallFrame();
+	public ArrayList<FrameVO> selectallPart() {
+		ArrayList<FrameVO> allpart = partmapper.selectallPart();
 		return allpart;
 	}
 }

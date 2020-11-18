@@ -8,5 +8,5 @@ import com.example.drone.vo.FrameVO;
 
 @Mapper
 public interface PartMapper {
-	ArrayList<FrameVO> selectallFrame();
+	ArrayList<FrameVO> selectallPart();
 }
