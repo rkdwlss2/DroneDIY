@@ -47,12 +47,13 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter{
 				.formLogin()
 				.loginPage("/member/login")
 				.loginProcessingUrl("/loginProcess")
-				.defaultSuccessUrl("/")
+				.defaultSuccessUrl("/homelogin")
 				
 			.and()
 				.logout()
 				.logoutRequestMatcher(new AntPathRequestMatcher("/logout"))
 				.deleteCookies("JSESSIONID")
+				.logoutSuccessUrl("/home")
 			.and()
 				.exceptionHandling()
 				.accessDeniedPage("/access-denied");
