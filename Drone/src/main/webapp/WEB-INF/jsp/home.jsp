@@ -9,7 +9,7 @@
 <!-- Navigation -->
 <nav class="w3-bar w3-black">
   <a href="#home" class="w3-button w3-bar-item">Home</a>
-  <a href="#band" class="w3-button w3-bar-item">PartOrder</a>
+  <a href="/partorder" class="w3-button w3-bar-item">PartOrder</a>
   <a href="#tour" class="w3-button w3-bar-item">Board</a>
   <a href="#contact" class="w3-button w3-bar-item">NewPartOrder</a>
   <a href="#contact" class="w3-button w3-bar-item">OrderHistory</a>
