@@ -20,6 +20,11 @@ public class MemberController {
 	@Autowired
 	MemberService service;
 	
+	@RequestMapping(value = "/login", method = RequestMethod.GET)
+	public String GetLogin() {
+		return "login";
+	}
+	
 	@RequestMapping(value = "/register", method = RequestMethod.GET)
 	public String getRegisterPage() throws Exception {
 		return "register";

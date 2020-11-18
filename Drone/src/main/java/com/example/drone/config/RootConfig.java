@@ -18,9 +18,6 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
 
-import lombok.extern.slf4j.Slf4j;
-
-@Slf4j
 @Configuration
 @PropertySource("classpath:/application.properties")
 @ComponentScan(basePackages = {"com.example.drone"})
@@ -35,7 +32,6 @@ public class RootConfig {
 	@Bean
 	public DataSource dataSource() {
 		DataSource dataSource = new HikariDataSource(hikariConfig());
-		log.info("datasource : {}", dataSource);
 		return dataSource;
 	}
 	

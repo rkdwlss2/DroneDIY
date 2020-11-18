@@ -38,14 +38,17 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter{
 	protected void configure(HttpSecurity http) throws Exception{
 		http
 			.authorizeRequests()
-				.antMatchers("/member/**").permitAll()
+				.antMatchers("/**").permitAll()
 				.antMatchers("/user/save").hasAnyAuthority("ADMIN","USER")
 				.anyRequest().authenticated()
 			.and()
 				.csrf().ignoringAntMatchers("/**")
 			.and()
 				.formLogin()
+				.loginPage("/member/login")
+				.loginProcessingUrl("/loginProcess")
 				.defaultSuccessUrl("/")
+				
 			.and()
 				.logout()
 				.logoutRequestMatcher(new AntPathRequestMatcher("/logout"))
